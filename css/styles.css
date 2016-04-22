@@ -212,7 +212,7 @@ footer[role=contentinfo] img {
 	overflow: hidden;
 }
 .pattern-description h1 { font-size: 3.4em; margin-bottom: 0.5em; }
-.pattern-description h2 { font-size: 2.5em; color:##0d8ada; margin-bottom: 0.5em; }
+.pattern-description h2 { font-size: 2.5em; color:#0d8ada; margin-bottom: 0.5em; }
 .pattern-description { max-width: 40em; margin: 0 auto; }
 .pattern-description ul, .pattern-description ol { margin-bottom: 1.4 em;}
 .pattern-description li { margin-bottom: 1em; }
