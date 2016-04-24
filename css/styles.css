@@ -1,6 +1,7 @@
 /* blue color : #0d8ada
 yellow color: #eaa000
 */
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 /************Reset**************/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
@@ -15,7 +16,8 @@ legend { display: none; }
 body {
 	background: #fff;
 	color: #000;
-	font: 100%/1.4 "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+	font: 100%/1.4;
+	font-family: 'Noto Sans KR', sans-serif;
 	padding: 0;
 	-webkit-text-size-adjust: none;
 }
