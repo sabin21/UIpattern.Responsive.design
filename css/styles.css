@@ -575,3 +575,15 @@ footer[role=contentinfo] img {
   10%   { background: #eee; }
   100% { background: #fff; }
 }
+
+/*------------------------------------
+* Pattern Box
+-------------------------------------*/
+.pattern-box { 
+	position: relative; width: 100%; min-height: 30em;
+	background: #ffffff; border-top: 1px solid #000000;
+	padding: 2em 2em 2em 2em;
+}
+.pattern-box h2 { font-size: 2em; color: #000; }
+.pattern-box h3 { font-size: 1.4em; color: #000; }
+.pattern-box p { font-size: 1em; color: #000; }
