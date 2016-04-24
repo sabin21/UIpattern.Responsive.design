@@ -2,6 +2,7 @@
 yellow color: #eaa000
 */
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,400italic,300italic,300,100italic,100,500,500italic,700,700italic);
 
 /************Reset**************/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
@@ -17,7 +18,7 @@ body {
 	background: #fff;
 	color: #000;
 	font: 100%/1.4;
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'Roboto', 'Noto Sans KR', sans-serif;
 	padding: 0;
 	-webkit-text-size-adjust: none;
 }
@@ -579,7 +580,8 @@ footer[role=contentinfo] img {
 /*------------------------------------
 * Pattern Box
 -------------------------------------*/
-.pattern-box { 
+.pattern-box {
+	font-family: 'Roboto', 'Noto Sans KR', sans-serif; 
 	position: relative; width: 100%; min-height: 30em;
 	background: #ffffff; border-top: 1px solid #000000;
 	padding: 2em 2em 2em 2em;
