@@ -589,3 +589,4 @@ footer[role=contentinfo] img {
 .pattern-box h2 { font-size: 2em; color: #000; }
 .pattern-box h3 { font-size: 1.4em; color: #000; }
 .pattern-box p { font-size: 1em; color: #000; }
+.pattern-box ul li:before { content: '&#9658'; }
