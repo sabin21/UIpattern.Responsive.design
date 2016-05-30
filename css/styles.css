@@ -293,6 +293,9 @@ footer[role=contentinfo] img {
 /*------------------------------------
 * Pattern Box
 -------------------------------------*/
+.sample-image-wrap {
+	width: 100%; padding: 3em; background: #b7b7b7;
+}
 .pattern-box {
 	font-family: 'Roboto', 'Noto Sans KR', sans-serif;
 	text-align: left;
