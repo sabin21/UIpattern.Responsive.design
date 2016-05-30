@@ -301,7 +301,7 @@ footer[role=contentinfo] img {
 	text-align: left;
 	position: relative; width: 100%; min-height: 30em;
 	background: #ffffff; border-top: 1px solid #000000;
-	padding: 2em 2em 2em 2em;
+	padding: 1em 2em 4em 2em;
 }
 .pattern-box h2 { font-size: 2em; color: #0086ee; }
 .pattern-box h3 { font-size: 1.4em; color: #000; }
