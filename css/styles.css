@@ -297,7 +297,7 @@ footer[role=contentinfo] img {
 	width: 100%; padding: 3em; background: #b7b7b7;
 }
 .pattern-box {
-	font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+	font-family: 'Roboto', 'Arial', sans-serif;
 	text-align: left;
 	position: relative; width: 100%; min-height: 30em;
 	background: #ffffff; border-top: 1px solid #000000;
