@@ -5,31 +5,14 @@
   -webkit-box-sizing: border-box; 
   box-sizing: border-box; 
 }
-html, body, div, object, iframe, fieldset { 
-  margin: 0; 
-  padding: 0; 
-  border: 0;
-} 
-ol, ul { 
-  list-style: none;
-  margin: 0;
-  padding: 0;
-} 
-table { 
-  border-collapse: collapse; 
-  border-spacing: 0; 
-}
-header, footer, nav, section, article, hgroup, figure {
-  display: block; 
-}
-legend {
-  display: none;
-}
+html, body, div, object, iframe, fieldset { margin: 0; padding: 0; border: 0;} 
+ol, ul { list-style: none;margin: 0;padding: 0;} 
+table { border-collapse: collapse; border-spacing: 0; }
+header, footer, nav, section, article, hgroup, figure {display: block; }
+legend { display: none;}
 
 /* Basic --------------*/
-* {
-  box-sizing: border-box; }
-
+* { box-sizing: border-box; }
 body {
   padding: 0;
   margin: 0;
@@ -38,21 +21,14 @@ body {
   line-height: 1.5;
   background-color: #ececec; }
 
-a {
-  color: #1e6bb8;
-  text-decoration: none; }
-  a:hover {
-    text-decoration: underline; }
-
+a { color: #1e6bb8; text-decoration: none; }
+a:hover {text-decoration: underline; }
 
 @media screen and (min-width: 64em) {
-  .btn {
-    padding: 0.75rem 1rem; } }
+  .btn { padding: 0.75rem 1rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
-  .btn {
-    padding: 0.6rem 0.9rem;
-    font-size: 0.9rem; } }
+  .btn { padding: 0.6rem 0.9rem; font-size: 0.9rem; } }
 
 @media screen and (max-width: 42em) {
   .btn {
@@ -64,10 +40,7 @@ a {
       margin-top: 1rem;
       margin-left: 0; } }
 
-.page-header {
-  color: #fff;
-  text-align: center;
-  background-color: #857a65; }
+.page-header { color: #000; text-align: center; height: 260px; }
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -98,43 +71,38 @@ a {
     font-size: 1.75rem; } }
 
 .project-tagline {
-  margin-bottom: 1rem;
-  font-weight: normal;
-  opacity: 0.8; }
+  margin-bottom: 0rem; line-height: 0;
+  font-weight: normal; }
 
-@media screen and (min-width: 64em) {
-  .project-tagline {
-    font-size: 1.25rem; } }
-
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .project-tagline {
-    font-size: 1.15rem; } }
-
-@media screen and (max-width: 42em) {
-  .project-tagline {
-    font-size: 1rem; } }
-
-
+.content-wrap { 
+  position: relative; width: 100%; 
+  max-width: 1340px; margin: 0 auto;
+}
+.title { padding-left: 2.4em; padding-bottom: 0rem; border-top: 2px solid; }
+.title:nth-child(1) { margin-top: 2rem; }
+.title p{ padding-bottom: 1rem; line-height: 0; }
 .grid { 
-  position: relative; margin: 2rem auto 0 auto;
-  width: 100%; max-width: 75em;
+  position: relative; margin: 0 auto; width: 100%; padding: 0 1rem;
+  max-width: 1600px;  padding-bottom: 4rem;
 }
 .grid h2 { padding-left: 1rem; }
 .grid .grid-box { 
-  position: relative; float: left; margin: .5rem;
-  background: #ffffff; width: 17em; min-height: 4rem;
+  position: relative; margin: .2rem;
+  background: #ffffff; width: 18em; min-height: 4rem;
 }
 .grid .grid-box h3 { padding: 0 0 0 1rem; }
-.grid .grid-box ul li { padding: 0 0 .3rem 1.8rem; }
-.grid .grid-box ul li:last-child { padding: 0 0 1.6rem 1.8rem; }
+.grid .grid-box ul li { padding: 0 0 .3rem 1rem; }
+.grid .grid-box ul li:before { 
+  content:'\25BA'; font-size: 0.4rem; padding-right: 0.4rem;
+  color: #999;
+}
+.grid .grid-box ul li:last-child { padding: 0 0 2rem 1rem; }
 hr {
   height: 2px;
   padding: 0;
   margin: 1rem 0;
   background-color: #eff0f1;
   border: 0; }
-
-
 
 .site-footer {
   clear: both;
@@ -160,3 +128,5 @@ hr {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+.ing { background-color: #999; }
